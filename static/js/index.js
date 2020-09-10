@@ -1,0 +1,1 @@
+document.getElementById("eliminar").addEventListener("click", () => confirm("Deseas eliminar al jugador"));

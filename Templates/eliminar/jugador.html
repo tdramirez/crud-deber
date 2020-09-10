@@ -1,0 +1,9 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<form method="post">
+    {% csrf_token %}
+    <h3>deseas eliminar al jugador {{ jugador.nombre }}</h3>
+    <input type="submit" value="Si, eliminar">
+</form>
+{% endblock %}
